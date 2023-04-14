@@ -16,6 +16,22 @@ public class AIControllerCian : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                SetAITargetLocation(hit.point);
+            }
+            
+        }
+
+    }
+
+    private void SetAITargetLocation(Vector3 targetLocation)
+    {
+        _navMeshAgent.SetDestination(targetLocation);
+
     }
 }
+
