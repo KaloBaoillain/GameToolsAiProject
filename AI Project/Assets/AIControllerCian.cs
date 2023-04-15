@@ -11,7 +11,7 @@ public class AIControllerCian : MonoBehaviour
     public float timer, wanderTime;
     public Transform otherPlayer;
 
-    public enum State
+    private enum State
     {
         FindCharacter,
         Wander,

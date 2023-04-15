@@ -43,6 +43,7 @@
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\EditorPluginInterop.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\UnitTesting\TestEvent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\StartUpMethodExecutor.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\UnitTesting\TestsCallback.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\ProjectGeneration\GUIDProvider.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\Util\LibcNativeInterop.cs" />
@@ -78,7 +79,6 @@
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\PluginSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\PostProcessors\RiderAssetPostprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\Util\StringUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\StartUpMethodExecutor.cs" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\ProjectGeneration" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\Properties" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.18\Rider\Editor\UnitTesting" />
@@ -345,7 +345,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\halpi\Desktop\Game Tools AI\GameToolsAiProject\AI Project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\halpi\Documents\GameDesign\GameTools\Game Tools AI\GameToolsAiProject\AI Project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
