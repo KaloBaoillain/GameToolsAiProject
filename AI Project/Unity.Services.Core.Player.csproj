@@ -53,11 +53,6 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\Utils\UnityThreadUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\IUnityServices.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\Initialization\InitializationOptions.cs" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\Initialization" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\DynamicDependency" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\Utils" />
-     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core\Unity.Services.Core.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

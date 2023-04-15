@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638169982102569790
-    m_Hash: 1010242877
+      ticks: 638171660993615511
+    m_Hash: 207879773
   m_LockFileStatus:
     m_FilePath: C:/Users/halpi/Desktop/Game Tools AI/GameToolsAiProject/AI Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638169982494063280
-    m_Hash: 1035663092
+      ticks: 638171660993675799
+    m_Hash: 1888506912
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -227,7 +227,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -260,12 +260,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
-  resolvedPath: C:\Users\halpi\Desktop\Game Tools AI\GameToolsAiProject\AI Project\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: C:\Users\halpi\Desktop\Game Tools AI\GameToolsAiProject\AI Project\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -338,13 +338,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
     version: 3.0.16

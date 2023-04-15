@@ -75,18 +75,6 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Networking\IUnityWebRequestSender.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Utils\TelemetryUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Utils\TelemetryConfigKeys.cs" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Models" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Handlers" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Diagnotstics" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Metrics" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Networking" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Models\Diagnostics" />
-     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Unity.Services.Core.Telemetry.asmdef" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Utils" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Cache" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Models\Interfaces" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry\Models\Metrics" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Telemetry" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

@@ -106,27 +106,6 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Environments\IEnvironments.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\CircularDependencyException.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Scheduler\IActionScheduler.cs" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Threading" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Telemetry" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Qos" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Scheduler" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Logging" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\AsyncOperation" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Vivox" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Configuration" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Device" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Authentication" />
-     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Unity.Services.Core.Internal.asmdef" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Wire" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\ComponentRegistry" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Networking" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Utils" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Environments" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Telemetry" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\PackageRegistry" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

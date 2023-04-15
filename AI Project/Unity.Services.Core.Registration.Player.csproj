@@ -43,8 +43,6 @@
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Registration\CorePackageInitializer.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Registration\AssemblyInfo.cs" />
-     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Registration" />
-     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Registration\Unity.Services.Core.Registration.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

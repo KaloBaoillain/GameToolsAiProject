@@ -114,22 +114,6 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Events\Signals\SignalEmitter.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Playables\TimeControlPlayable.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Utilities\Extrapolation.cs" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Activation" />
-     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Unity.Timeline.asmdef" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Audio" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Events" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Utilities" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Control" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Events\Signals" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Playables" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\AssetUpgrade" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Evaluation" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Extensions" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Attributes" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Scripting" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Animation" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime" />
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4\Runtime\Properties" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
