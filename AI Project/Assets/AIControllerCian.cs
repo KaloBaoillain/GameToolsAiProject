@@ -10,6 +10,7 @@ public class AIControllerCian : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     public float timer, wanderTime;
     public Transform otherPlayer;
+    public bool isFollowing;
 
     private enum State
     {
@@ -35,7 +36,7 @@ public class AIControllerCian : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                //SetAITargetLocation(hit.point);
+                SetAITargetLocation(hit.point);
             }
             
         }
@@ -48,15 +49,16 @@ public class AIControllerCian : MonoBehaviour
                 
                 SetAITargetLocation(otherPlayer.position);
 
-                if (_navMeshAgent.remainingDistance < 1.0f && _navMeshAgent.remainingDistance > 0.5f)
+                if (_navMeshAgent.remainingDistance < 100.0f && _navMeshAgent.remainingDistance > 5.0f)
                 {
                     _currentState = State.Wander;
+                    isFollowing = true;
                 }
 
                 break;
             
             case State.Wander:
-                
+
                 timer += Time.deltaTime;
                 Wander();
 
