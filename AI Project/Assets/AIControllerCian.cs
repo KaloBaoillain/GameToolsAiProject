@@ -8,9 +8,12 @@ using Random = UnityEngine.Random;
 public class AIControllerCian : MonoBehaviour
 {
     private NavMeshAgent _navMeshAgent;
+    
     public float timer, wanderTime;
+    
     public Transform otherPlayer;
-    public bool isFollowing;
+    
+    public bool isFollowing = false;
 
     private enum State
     {
@@ -41,8 +44,6 @@ public class AIControllerCian : MonoBehaviour
             
         }
 
-        
-
         switch (_currentState)
         {
             case State.FindCharacter:
@@ -52,7 +53,6 @@ public class AIControllerCian : MonoBehaviour
                 if (_navMeshAgent.remainingDistance < 100.0f && _navMeshAgent.remainingDistance > 5.0f)
                 {
                     _currentState = State.Wander;
-                    isFollowing = true;
                 }
 
                 break;
@@ -86,6 +86,7 @@ public class AIControllerCian : MonoBehaviour
             Vector3 wanderPos3D = new Vector3(transform.position.x + wanderTarget.x, transform.position.y, transform.position.z + wanderTarget.y);
             SetAITargetLocation(wanderPos3D);
             timer = 0;
+            isFollowing = true;
         }
         
     }

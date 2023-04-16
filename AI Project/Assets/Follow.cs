@@ -7,10 +7,10 @@ public class Follow : MonoBehaviour
 {
     
     private NavMeshAgent _navMeshAgent;
-
-    public bool isFollowing = false;
     
     public Transform followTarget;
+    
+    public AIControllerCian aiControllerCian;
     
     private enum State
     {
@@ -24,7 +24,6 @@ public class Follow : MonoBehaviour
     void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        isFollowing = false;
     }
 
     // Update is called once per frame
@@ -46,7 +45,7 @@ public class Follow : MonoBehaviour
                 throw new System.NotImplementedException();
         }
         
-        if (_navMeshAgent.remainingDistance < 100.0f)
+        if (aiControllerCian.isFollowing && _navMeshAgent.remainingDistance < 100.0f)
         {
             _currentState = State.Follow;
         }
